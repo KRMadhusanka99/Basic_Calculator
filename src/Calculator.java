@@ -34,13 +34,13 @@ public class Calculator {
         System.out.println();
         switch (option){
             case 1 :
-                System.out.println("Answer : " + getSum(num1,num2));; break;
+                System.out.println("Answer : " + getSum(num1,num2)); break;
             case 2 :
-                System.out.println("Answer : " + getDif(num1,num2));; break;
+                System.out.println("Answer : " + getDif(num1,num2)); break;
             case 3 :
-                System.out.println("Answer : " + getMul(num1,num2));; break;
+                System.out.println("Answer : " + getMul(num1,num2)); break;
             case 4 :
-                System.out.println("Answer : " + getDiv(num1,num2));; break;
+                System.out.println("Answer : " + getDiv(num1,num2)); break;
             default:
                 System.out.println("Wrong option");
         }
